@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "api/webapp3.py",
+            "use": "@vercelpython"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "api/webapp3.py"
+        }
+    ]
+}
